@@ -37,7 +37,7 @@ Support for account and key models of the following protocols:
     "id": "did:example:123#owner",
     "controller": "did:example:123",
     "type": ["VerifiableCondition", "VerifiableConditionAnd"],
-    "verificationMethod": {},
+    "verificationMethod": {}
 }
 ```
 
@@ -102,7 +102,7 @@ Note: this subtype can be expressed through a Threshold subtype by setting the â
     "controller": "did:example:123",
     "type": ["VerifiableCondition", "VerifiableConditionThreshold"],
     "threshold": 3,
-    "verificationMethod": [],
+    "verificationMethod": []
 }
 ```
 
@@ -152,7 +152,7 @@ Fulfilled if the verificationMethod found by dereferencing the DID URL â€œdelega
     "type": ["VerifiableCondition", "VerifiableConditionRelationship"],
     "parentIdUrl": [],
     "childIdUrl": [],
-    "siblingIdUrl": [],
+    "siblingIdUrl": []
 }
 ```
 
